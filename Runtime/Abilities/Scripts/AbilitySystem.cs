@@ -102,6 +102,7 @@ namespace Mandible.AbilitySystem
         private void OnEnable()
         {
             ShowAbilitySlots(true);
+            GetSlotReferences();
 
             SubscribeEvents();
         }
@@ -535,12 +536,12 @@ namespace Mandible.AbilitySystem
 
         private void GetSlotReferences()
         {
-            if(baseAbilitySlots != null){
+            if(baseAbilitySlots != null && baseAbilityParent != null){
                 baseAbilitySlots.Clear();
                 baseAbilitySlots.AddRange(baseAbilityParent.GetComponentsInChildren<AbilitySlot>());
             }
 
-            if(swappableAbilitySlots != null){
+            if(swappableAbilitySlots != null && swappableAbilityParent != null){
                 swappableAbilitySlots.Clear();
                 swappableAbilitySlots.AddRange(swappableAbilityParent.GetComponentsInChildren<AbilitySlot>());
             }
