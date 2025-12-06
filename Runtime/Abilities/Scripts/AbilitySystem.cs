@@ -527,6 +527,8 @@ namespace Mandible.AbilitySystem
 
         private void ShowAbilitySlots(bool show)
         {
+            if(!this.gameObject.activeSelf) return;
+
             foreach (var slot in baseAbilitySlots)
                 slot.gameObject.SetActive(show);
             
