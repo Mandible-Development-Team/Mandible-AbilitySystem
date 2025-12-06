@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be0abc0baa9493a4499595c2db6cd18c, type: 3}
+  m_Name: Dash
+  m_EditorClassIdentifier: Mandible.AbilitySystem::DashAbility
+  name: 
+  id: 0
+  icon: {fileID: 21300000, guid: ce7756a043a01dc4ca0d8d6308ed5d93, type: 3}
+  actionName: MovementAbility
+  duration: 0
+  cooldown: 2
+  force: 75

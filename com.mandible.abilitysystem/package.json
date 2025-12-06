@@ -1,0 +1,15 @@
+{
+  "name": "com.mandible.abilitysystem",
+  "version": "0.1.0-preview",
+  "displayName": "Mandible Ability System",
+  "description": "Ability system package for PlayerController",
+  "defineConstraints": [
+    {
+      "name": "MANDIBLE_ABILITY_SYSTEM"
+    }
+  ],
+  "dependencies": {
+    "com.mandible.playercontroller": "0.0.0",
+    "com.mandible.generic": "0.0.0"
+  }
+}

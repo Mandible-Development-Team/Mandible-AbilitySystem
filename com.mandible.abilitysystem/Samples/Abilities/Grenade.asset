@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72aed4074b11a054281573dd262b67a2, type: 3}
+  m_Name: Grenade
+  m_EditorClassIdentifier: Mandible.AbilitySystem::GrenadeAbility
+  name: 
+  id: 0
+  icon: {fileID: 21300000, guid: 16aebd7e90660f44281549730ac5ade4, type: 3}
+  actionName: 
+  duration: 0
+  cooldown: 2
+  grenadePrefab: {fileID: 3692257826968809097, guid: c748fabc1c0529144b8c0535977436c1, type: 3}
+  throwForce: 20
+  arcHeight: 0.5
+  spawnOffset: 1
