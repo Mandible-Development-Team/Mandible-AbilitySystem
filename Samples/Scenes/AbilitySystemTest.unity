@@ -882,6 +882,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 759324247287196272, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1521228903738604559, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -921,6 +925,62 @@ PrefabInstance:
     - target: {fileID: 1521228903738604559, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044326497053957149, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074243360951177699, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7793349732791189109, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7793349732791189109, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: baseAbilitySlotCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7793349732791189109, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: extensions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7793349732791189109, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: m_EditorClassIdentifier
+      value: Mandible.AbilitySystem::Mandible.AbilitySystem.AbilitySystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 7793349732791189109, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: 'extensions.Array.data[0]'
+      value: 4217429888105971778
+      objectReference: {fileID: 0}
+    - target: {fileID: 7793349732791189109, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: 'extensions.Array.data[1]'
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7793349732791189109, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: swappableAbilitySlotCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7793349732791189109, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: 'managedReferences[4217429888105971778]'
+      value: Mandible.AbilitySystem Mandible.AbilitySystem.UltimateAbilitySystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 7793349732791189109, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: managedReferences[4217429888105971778].enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7793349732791189109, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: managedReferences[4217429888105971778].ultimateAbility
+      value: 
+      objectReference: {fileID: 11400000, guid: f0d3947d3d2cd274c80553eee1130cae, type: 2}
+    - target: {fileID: 7793349732791189109, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: managedReferences[4217429888105971778].ultimatePriority
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8814905166550956343, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9207148734566253406, guid: bb48c88f5d7e1ca48b0724e069d569e7, type: 3}
       propertyPath: m_Name

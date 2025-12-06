@@ -2392,7 +2392,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a6edb40a4eda7242afaf5741a11df9a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Mandible.AbilitySystem::AbilitySystem
+  m_EditorClassIdentifier: Mandible.AbilitySystem::Mandible.AbilitySystem.AbilitySystem
   playerObject: {fileID: 1521228903738604559}
   baseAbilities:
     _list:
@@ -2407,15 +2407,15 @@ MonoBehaviour:
   currentOverride: {fileID: 0}
   inputBufferTime: 0.08
   extensions:
-  - rid: 4217429785860374593
+  - rid: 4217429888105971778
   baseAbilitySlotCount: 1
   swappableAbilitySlotCount: 3
   debug: 0
   references:
     version: 2
     RefIds:
-    - rid: 4217429785860374593
-      type: {class: UltimateAbilitySystem, ns: , asm: Mandible.AbilitySystem}
+    - rid: 4217429888105971778
+      type: {class: UltimateAbilitySystem, ns: Mandible.AbilitySystem, asm: Mandible.AbilitySystem}
       data:
         enabled: 1
         ultimateAbility: {fileID: 11400000, guid: f0d3947d3d2cd274c80553eee1130cae, type: 2}

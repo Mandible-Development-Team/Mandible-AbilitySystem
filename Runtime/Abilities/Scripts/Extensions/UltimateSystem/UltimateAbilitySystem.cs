@@ -16,7 +16,7 @@ namespace Mandible.AbilitySystem
         [SerializeField] private int ultimatePriority = 100;
 
         private AbilitySystem owner;
-        //private PlayerInputActions input;
+
         private Coroutine process;
 
         public UltimateAbilitySystem() { }
@@ -30,7 +30,6 @@ namespace Mandible.AbilitySystem
         {
             if (owner == null) return;
             this.owner = owner;
-            //this.input = owner.input;
 
             SetEventListeners();
         }
@@ -94,13 +93,11 @@ namespace Mandible.AbilitySystem
         //Events
         void SetEventListeners()
         {
-            //System
             owner.OnAbilityRun += OnAbilityCall;
         }
 
         void ClearEventListeners()
         {
-            //System
             owner.OnAbilityRun -= OnAbilityCall;
         }
     }
