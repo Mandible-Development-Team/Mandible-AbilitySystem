@@ -1,21 +1,25 @@
 using UnityEngine;
-public class CustomAbilitySlot : AbilitySlot
+
+namespace Mandible.AbilitySystem
 {
-    [Header("Custom Ability Slot")]
-    [SerializeField] string actionName;
-    [SerializeField] bool abilityOverridesAction = false;
-
-    protected override string ResolveInputAction()
+    public class CustomAbilitySlot : AbilitySlot
     {
-        if (abilityOverridesAction && ability != null && !string.IsNullOrEmpty(ability.GetCustomAction()))
-            return ability.GetCustomAction();
+        [Header("Custom Ability Slot")]
+        [SerializeField] string actionName;
+        [SerializeField] bool abilityOverridesAction = false;
 
-        return actionName;
+        protected override string ResolveInputAction()
+        {
+            if (abilityOverridesAction && ability != null && !string.IsNullOrEmpty(ability.GetCustomAction()))
+                return ability.GetCustomAction();
+
+            return actionName;
+        }
+
+        bool CanOverrideInputFromAbility()
+        {
+            return abilityOverridesAction == true && ability != null && ability.GetCustomAction() != null;
+        }
+
     }
-
-    bool CanOverrideInputFromAbility()
-    {
-        return abilityOverridesAction == true && ability != null && ability.GetCustomAction() != null;
-    }
-
 }

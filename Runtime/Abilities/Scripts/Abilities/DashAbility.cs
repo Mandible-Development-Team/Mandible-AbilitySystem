@@ -2,6 +2,8 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+using Mandible.AbilitySystem;
+
 [CreateAssetMenu(menuName = "Abilities/Movement/Dash")]
 public class DashAbility : MovementAbility
 {

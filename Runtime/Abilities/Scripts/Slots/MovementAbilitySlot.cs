@@ -1,9 +1,12 @@
 using UnityEngine;
 
-public class MovementAbilitySlot : AbilitySlot
+namespace Mandible.AbilitySystem
 {
-    protected override string ResolveInputAction()
+    public class MovementAbilitySlot : AbilitySlot
     {
-        return "MovementAbility";
+        protected override string ResolveInputAction()
+        {
+            return "MovementAbility";
+        }
     }
 }

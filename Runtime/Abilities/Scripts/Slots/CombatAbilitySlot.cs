@@ -1,10 +1,14 @@
 using UnityEngine;
-public class CombatAbilitySlot : AbilitySlot
-{
-    [SerializeField, Range(1, 9)] int slotNumber;
 
-    protected override string ResolveInputAction()
+namespace Mandible.AbilitySystem
+{
+    public class CombatAbilitySlot : AbilitySlot
     {
-        return $"Ability{slotNumber}";
+        [SerializeField, Range(1, 9)] int slotNumber;
+
+        protected override string ResolveInputAction()
+        {
+            return $"Ability{slotNumber}";
+        }
     }
 }

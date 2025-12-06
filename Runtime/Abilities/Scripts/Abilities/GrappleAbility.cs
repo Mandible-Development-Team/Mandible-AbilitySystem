@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 using Mandible.PlayerController;
+using Mandible.AbilitySystem;
 
 [CreateAssetMenu(menuName = "Abilities/Movement/Grapple")]
 public class GrappleAbility : MovementAbility

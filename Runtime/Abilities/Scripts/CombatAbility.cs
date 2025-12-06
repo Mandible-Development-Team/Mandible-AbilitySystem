@@ -1,3 +1,6 @@
 using UnityEngine;
 
-public abstract class CombatAbility : Ability { }
+namespace Mandible.AbilitySystem
+{
+    public abstract class CombatAbility : Ability { }
+}

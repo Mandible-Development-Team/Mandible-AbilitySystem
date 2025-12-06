@@ -1,6 +1,9 @@
 using UnityEngine;
 
-public abstract class MovementAbility : Ability
+namespace Mandible.AbilitySystem
 {
-    public virtual void Activate(IAgent agent){ }
+    public abstract class MovementAbility : Ability
+    {
+        public virtual void Activate(IAgent agent){ }
+    }
 }
