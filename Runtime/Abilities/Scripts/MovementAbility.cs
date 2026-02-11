@@ -1,4 +1,5 @@
 using UnityEngine;
+using Mandible.Core;
 
 namespace Mandible.AbilitySystem
 {

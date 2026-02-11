@@ -5,6 +5,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
+using Mandible.Core;
+
 namespace Mandible.AbilitySystem
 {
     public abstract class Ability : ScriptableObject

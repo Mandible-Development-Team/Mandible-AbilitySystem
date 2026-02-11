@@ -17,8 +17,10 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 16aebd7e90660f44281549730ac5ade4, type: 3}
   actionName: 
   duration: 0
-  cooldown: 2
-  grenadePrefab: {fileID: 3692257826968809097, guid: c748fabc1c0529144b8c0535977436c1, type: 3}
-  throwForce: 20
-  arcHeight: 0.5
+  cooldown: 0.5
+  grenadePrefab: {fileID: 1503232606777850815, guid: 080fd0c329a9cbf4dbd781d553ef58dd, type: 3}
+  throwForce: 15
+  arcHeight: 0.25
   spawnOffset: 1
+  heightOffset: 1.5
+  throwData: {fileID: 11400000, guid: f5496d99a9922aa468bfb90b4282010c, type: 2}

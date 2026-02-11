@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+using Mandible.Core;
+
 namespace Mandible.AbilitySystem
 {
     [ExecuteAlways]

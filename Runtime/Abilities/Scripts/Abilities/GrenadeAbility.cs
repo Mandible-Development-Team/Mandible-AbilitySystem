@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 
 using Mandible.AbilitySystem;
+using Mandible.PlayerController;
+using Mandible.Entities;
+using Mandible.Core;
 
 [CreateAssetMenu(menuName = "Abilities/Combat/Grenade")]
 public class GrenadeAbility : CombatAbility
@@ -12,16 +15,26 @@ public class GrenadeAbility : CombatAbility
     public float throwForce = 10f;
     public float arcHeight = 0.5f;
     public float spawnOffset = 1f;
+    public float heightOffset = 1f;
+
+    [Header("Data")]
+    public ThrowActionData throwData;
 
     public override IEnumerator Activate(IAgent agent, RuntimeState data)
     {
+        IThrowCapability thrower = agent.GetCapability<IThrowCapability>();
+        
+        thrower.Throw(throwData);
+
+        /*
         if (grenadePrefab == null)
         {
             Debug.LogWarning("Grenade prefab not assigned!");
             yield return null;
         }
 
-        Vector3 spawnPos = agent.transform.position + agent.GetLookDirection() * spawnOffset;
+        Vector3 offset = Vector3.up * heightOffset;
+        Vector3 spawnPos = agent.transform.position + offset + agent.GetLookDirection() * spawnOffset;
 
         GameObject grenade = Instantiate(grenadePrefab, spawnPos, Quaternion.identity);
 
@@ -34,6 +47,7 @@ public class GrenadeAbility : CombatAbility
         {
             Debug.LogWarning("Grenade prefab missing Rigidbody!");
         }
+        */
 
         yield return null;
     }

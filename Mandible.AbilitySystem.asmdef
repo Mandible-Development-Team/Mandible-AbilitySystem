@@ -2,10 +2,10 @@
     "name": "Mandible.AbilitySystem",
     "rootNamespace": "",
     "references": [
-        "GUID:ef8b64a5d02ba1545b589673e5f7d023",
-        "GUID:3a23b97dd74cf874e9fa4578af90ecdb",
-        "GUID:6055be8ebefd69e48b49212b09b47b2f",
-        "GUID:8a33b921c6a4a91449b57791aa292d24"
+        "Mandible.PlayerController",
+        "Mandible.Core",
+        "Mandible.Core.Data",
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

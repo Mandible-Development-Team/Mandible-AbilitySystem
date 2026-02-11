@@ -1,7 +1,9 @@
 using UnityEngine;
-using Mandible.Systems;
 using System.Collections;
 using System.Collections.Generic;
+
+//using Mandible.Systems;
+using Mandible.Core;
 
 namespace Mandible.AbilitySystem
 {

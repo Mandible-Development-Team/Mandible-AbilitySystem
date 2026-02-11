@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 using Mandible.AbilitySystem;
+using Mandible.Core;
 
 [CreateAssetMenu(menuName = "Abilities/Combat/PhysGun")]
 public class PhysGunAbility : CombatAbility

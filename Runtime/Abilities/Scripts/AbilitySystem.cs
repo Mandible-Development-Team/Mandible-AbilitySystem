@@ -4,8 +4,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-using Mandible.Systems;
+
 using Mandible.PlayerController;
+using Mandible.Systems;
+using Mandible.Entities;
+using Mandible.Core;
 
 using Sirenix.OdinInspector;
 
@@ -81,7 +84,7 @@ namespace Mandible.AbilitySystem
         #else
         private void Start()
         {
-            Debug.LogWarning("AbilitySystem requires Mandible PlayerController dependency to function. Please install from https://sampleurl.com");
+            Debug.LogWarning("AbilitySystem requires Mandible PlayerController dependency to function. Please install from https://github.com/Mandible-Development-Team/Mandible-PlayerController");
             return;
         }
         #endif
@@ -152,6 +155,8 @@ namespace Mandible.AbilitySystem
         #if MANDIBLE_PLAYER_CONTROLLER
         void InitializePlayer()
         {
+            if(Application.isPlaying == false) return;
+            
             if(playerObject == null)
                 playerObject = this.transform;
 

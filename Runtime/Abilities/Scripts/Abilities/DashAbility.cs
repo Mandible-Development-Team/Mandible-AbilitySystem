@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 using Mandible.AbilitySystem;
+using Mandible.Core;
 
 [CreateAssetMenu(menuName = "Abilities/Movement/Dash")]
 public class DashAbility : MovementAbility
