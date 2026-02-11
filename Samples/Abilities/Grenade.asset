@@ -18,7 +18,7 @@ MonoBehaviour:
   actionName: 
   duration: 0
   cooldown: 0.5
-  grenadePrefab: {fileID: 1503232606777850815, guid: 080fd0c329a9cbf4dbd781d553ef58dd, type: 3}
+  grenadePrefab: {fileID: 3692257826968809097, guid: c748fabc1c0529144b8c0535977436c1, type: 3}
   throwForce: 15
   arcHeight: 0.25
   spawnOffset: 1
